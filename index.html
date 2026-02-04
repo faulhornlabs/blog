@@ -15,7 +15,9 @@ title: Faulhorn Labs blog
     {% for post in site.posts %}
     <div class='post-row'>
       <p class='post-title'>
-	<a href="{{ post.url }}">
+	
+	
+	<a href="{{ post.url | relative_url }}">
 	  {{ post.title }}
 	</a>
       </p>
